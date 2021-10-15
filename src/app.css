@@ -1,0 +1,94 @@
+body {
+    background-color: #F5D9DF;
+    font-family: "Nunito", sans-serif;
+}
+
+#mainNav {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNav .navbar-brand {
+    color: #EA1C2C;
+    font-size: 1.5rem;
+}
+
+#mainNav .nav-link {
+    color: white;
+}
+
+#mainNav .nav-link:hover {
+    color: #EA1C2C;
+    transition: 1s;
+}
+
+#mainNav .nav-item {
+    text-transform: uppercase;
+}
+
+.navbar.scrolled {
+    background: #dec0de;
+    transition: background 500ms;
+}
+
+#headingGroup h1 {
+    font-size: 4rem;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+#headingGroup span {
+    color: #EA1C2C;
+}
+
+@media (max-width: 1250px) {
+    #headingGroup h1 {
+        font-size: 3rem;
+    }
+}
+@media (max-width: 1000px) {
+    #headingGroup h1 {
+        font-size: 2.5rem;
+    }
+}
+@media (max-width: 850px) {
+    #headingGroup h1 {
+        font-size: 2rem;
+    }
+}
+
+main > section {
+    margin-top: 75px;
+}
+
+h2 {
+    color: #EA1C2C;
+    font-weight: 100;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+h2 + img {
+    max-width: 75px;
+}
+
+p.lead {
+    color: #b85678;
+    font-size: 1.125rem;
+    font-weight: 100;
+    line-height: 2;
+}
+
+@media (max-width: 1165px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+    p.lead {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 850px){
+    p.lead {
+        line-height: 1.5;
+    }
+}
